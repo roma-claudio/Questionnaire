@@ -3,9 +3,13 @@ import "./style.css";
 
 export default function App() {
   return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+    <div className="container-flex">
+      <div className="row-flex">
+        <div className="column-flex-2">
+          <h1>Title</h1>
+          <p>This is the mission paragraph</p>
+        </div>
+      </div>
     </div>
   );
 }
