@@ -6,7 +6,7 @@ import { useHistory } from 'react-router-dom';
 
 function App (){
   let history = useHistory();
-  let handleClick = () => {history.push('/question')};
+  let handleClick = () => {history.push('/question1')};
 
   return (
     <div className="container-flex">

@@ -11,7 +11,7 @@ function Question(props) {
 
     let history = useHistory();
     let handleClick = () => {
-        history.push('/congrats');
+        history.push('/recap');
     }
 
     let answer;

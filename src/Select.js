@@ -3,9 +3,9 @@ import React from 'react';
 
 function Select() {
     return(
-        <div class="form-group">
-            <label for="exampleFormControlSelect1">Example select</label>
-            <select class="form-control" id="exampleFormControlSelect1">
+        <div className="form-group">
+            <label htmlFor="exampleFormControlSelect1">Example select</label>
+            <select className="form-control" id="exampleFormControlSelect1">
                 <option>1</option>
                 <option>2</option>
                 <option>3</option>
